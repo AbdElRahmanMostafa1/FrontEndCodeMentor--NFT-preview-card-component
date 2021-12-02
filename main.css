@@ -52,6 +52,7 @@ body {
 main {
   border-radius: 2rem;
   width: 35rem;
+  /* height: 20rem; */
   padding: 2rem;
   outline: 2rem solid #000111;
   background-color: #15273f;
@@ -139,12 +140,33 @@ h3 {
   margin-left: 0.5rem;
 }
 
-@media (max-width: 531px) {
+@media only screen and (max-width: 600px) {
   html {
-    font-size: 77.5%;
+    font-size: 130%;
   }
-  main {
-    height: 100vh;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
   }
 }
 
